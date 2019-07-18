@@ -27,8 +27,11 @@ hr {
 hr.light {
     border-color: #fff;
 }
-
-a {
+a:link{
+    color: rgb(8, 8, 8);
+    outline: 0;
+}
+a:active {
     color: #00caf5;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
