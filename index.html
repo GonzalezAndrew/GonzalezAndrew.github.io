@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./css/animate.min.css" />
     <link rel="stylesheet" href="./css/ionicons.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="https://kit.fontawesome.com/f3969fd3b6.js"></script>
     <!--This is the font awesome extension for all icons-->
+    <script src="https://kit.fontawesome.com/f3969fd3b6.js"></script>
 </head>
 
 <body>
@@ -57,7 +57,8 @@
             </div>
         </div>
     </header>
-    <section class="bg-primary" id="one">
+    <aside class="bg-dark"> 
+    <section class="" id="one">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -68,26 +69,28 @@
                     </p>
                 </div>
             </div>
+            <!-- <a class="newanchor" href="https://github.com/cs4347-research-project/Code"><i
+                                        class="icon-lg fas fa-robot wow fadeIn" data-wow-delay=".3s"></i></a>-->
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 text-center">
                         <div class="feature">
-                            <i class="icon-lg fab fa-github wow fadeIn" data-wow-delay=".3s"></i>
-                            <h3>Github</h3>
+                            <a  class="newanchor" href="https://github.com/GonzalezAndrew"><i class="icon-lg fab fa-github wow fadeIn" data-wow-delay=".3s"></i>
+                            <h3>Github</h3></a>
                             <p class="text-muted">Check out my repositories</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 text-center">
                         <div class="feature">
-                            <i class="icon-lg fab fa-linkedin wow fadeInUp" data-wow-delay=".2s"></i>
-                            <h3>LinkedIn</h3>
+                            <a class="newanchor" href="https://www.linkedin.com/feed/"><i class="icon-lg fab fa-linkedin wow fadeInUp" data-wow-delay=".2s"></i>
+                            <h3>LinkedIn</h3></a>
                             <p class="text-muted">Feel free to connect with my on LinkedIn</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 text-center">
                         <div class="feature">
-                            <i class="icon-lg fas fa-scroll wow fadeIn" data-wow-delay=".3s"></i>
-                            <h3>Resume</h3>
+                            <a class="newanchor" href="https://drive.google.com/file/d/1ZMe0eaZ6IxiEF7SEMxAZj8ULWK_5mXmN/view?usp=sharing"><i class="icon-lg fas fa-scroll wow fadeIn" data-wow-delay=".3s"></i>
+                            <h3>Resume</h3></a>
                             <p class="text-muted">Have a copy of my resume</p>
                         </div>
                     </div>
@@ -95,6 +98,7 @@
             </div>
         </div>
     </section>
+</aside>
     <section id="two">
         <div class="container">
             <div class="row">
@@ -137,7 +141,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 text-center">
                             <div class="feature">
-                                <a href="https://github.com/cs4347-research-project/Code"><i
+                                <a class="newanchor" href="https://github.com/cs4347-research-project/Code"><i
                                         class="icon-lg fas fa-robot wow fadeIn" data-wow-delay=".3s"></i></a>
                                 <h3>Machine Learning</h3>
                                 <p class="text-muted">Research on various convulotional neural networks and their
@@ -146,7 +150,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 text-center">
                             <div class="feature">
-                                <a href="https://github.com/GonzalezAndrew/Python-Dissassembler-"><i
+                                <a class="newanchor" href="https://github.com/GonzalezAndrew/Python-Dissassembler-"><i
                                         class="icon-lg fas fa-lock-open wow fadeInUp" data-wow-delay=".2s"></i></a>
                                 <h3>ARM Dissasembler</h3>
                                 <p class="text-muted">Simulator loaded a binary file, dissamble the file into ARM
@@ -156,7 +160,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 text-center">
                             <div class="feature">
-                                <a href="https://github.com/GonzalezAndrew/NUber"> <i
+                                <a class="newanchor" href="https://github.com/GonzalezAndrew/NUber"> <i
                                         class="icon-lg fab fa-uber wow fadeIn" data-wow-delay=".3s"></i></a>
                                 <h3>Uber RESTful api</h3>
                                 <p class="text-muted">A RESTful api that simulated Uber. Allowed for GET/POST/DELETE/PUT
@@ -168,7 +172,6 @@
             </div>
         </section>
     </aside>
-    <!--href="https://twitter.com/duch_i"-->
     <section class="container-fluid" id="four">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
@@ -220,7 +223,7 @@
                 <div class="media wow fadeInRight">
                     <h3>MySQL</h3>
                     <div class="media-body media-middle">
-                        <p>Implemented a database that would take simulate client information and request.</p>
+                        <p>Implemented a client database that would store client information and past transactions.</p>
                     </div>
                     <div class="media-right">
                         <i class="icon-lg fas fa-database"></i>
@@ -246,29 +249,28 @@
     <aside class="bg-dark">
         <section id="last">
             <div class="container">
-                <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <h2 class="margin-top-0 wow fadeIn">Contact Me</h2>
                         <hr class="primary">
                         <p>Fill out the form below and I'll get back to you as soon as possible.</p>
                     </div>
                     <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <form class="contact-form row">
+                        <form class="contact-form row" method="post" action="contact-form-handler.php">
                             <div class="col-md-4">
                                 <label></label>
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input name ="name" type="text" class="form-control" placeholder="Name" required>
                             </div>
                             <div class="col-md-4">
                                 <label></label>
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input name="email" type="email" class="form-control" placeholder="Email" required>
                             </div>
                             <div class="col-md-4">
                                 <label></label>
-                                <input type="text" class="form-control" placeholder="Phone">
+                                <input name="phone" type="number" class="form-control" placeholder="Phone">
                             </div>
                             <div class="col-md-12">
                                 <label></label>
-                                <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
+                                <textarea name="message" class="form-control" rows="9" placeholder="Your message here.."></textarea>
                             </div>
                             <div class="col-md-4 col-md-offset-4">
                                 <label></label>
@@ -285,14 +287,14 @@
     <footer id="footer">
         <div class="container-fluid">
             <div class="text-right">
-                <h4>Follow</h4>
+                <h4>Socials</h4>
                 <ul class="list-inline">
                     <li><a rel="nofollow" href="https://twitter.com/duch_i" title="Twitter"><i
-                                class="icon-lg fab fa-twitter"></i></a>&nbsp;</li>
+                                class="fab fa-twitter fa-lg"></i></a>&nbsp;</li>
                     <li><a rel="nofollow" href="https://github.com/GonzalezAndrew" title="GitHub"><i
-                                class="icon-lg fab fa-github"></i></a>&nbsp;</li>
+                                class="fab fa-github fa-lg"></i></a>&nbsp;</li>
                     <li><a rel="nofollow" href="https://www.linkedin.com/in/-andrew-gonzalez/" title="LinkedIn"><i
-                                class="icon-lg fab fa-linkedin"></i></a></li>
+                                class="fab fa-linkedin fa-lg"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -301,20 +303,6 @@
                 Gonzalez</a> ©2019</span>
         </div>
     </footer>
-    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <img src="" id="galleryImage" class="img-responsive" />
-                    <p>
-                        <br />
-                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal"
-                            aria-hidden="true">Close <i class="ion-android-close"></i></button>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">

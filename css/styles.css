@@ -27,9 +27,8 @@ hr {
 hr.light {
     border-color: #fff;
 }
-a:link{
-    color: rgb(8, 8, 8);
-    outline: 0;
+.newanchor{
+    color: white;
 }
 a:active {
     color: #00caf5;
